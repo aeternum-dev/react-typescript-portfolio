@@ -1,0 +1,14 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero {
+    width: 100vw;
+    background-color: rgb(255, 136, 0);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100vh;
+    
+}
+

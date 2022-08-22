@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    top : 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: greenyellow;
+    list-style: none;
+
+}
+
+ul {
+    list-style: none;
+    display:  table-cell;
+    vertical-align: middle;
+    
+}
+ li {
+   
+    padding-right: 20rem;
+    width: 20px;
+    list-style: none;
+    display: inline;
+
+    
+    
+}
+
+img { 
+    
+    width : 120px;
+}
