@@ -5,13 +5,13 @@ import logo from '../aeternum-logo.svg'
 export default function navbar() {
   return (
     <nav>
-        <ul className='navtable-warpper'>
-          <li> <img src={logo} alt="aeternum"/> </li>
-          <li>About</li>
-          <li>Timeline</li>
-          <li>Projects</li>
-          <li>Contacts</li>
-        </ul>
+      <img src={logo} alt="logo"/>
+      <ul className='navtable-warpper'>
+        <li>About</li>
+        <li>Timeline</li>
+        <li>Projects</li>
+        <li>Contacts</li>
+      </ul>
     </nav>
   )
 }

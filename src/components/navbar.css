@@ -1,31 +1,31 @@
 nav {
     position: fixed;
     top : 0;
+    display : flex;
+    align-content: flex-start;
     height: 10vh;
     width: 100vw;
     background-color: greenyellow;
-    list-style: none;
-
-}
-
-ul {
-    list-style: none;
-    display:  table-cell;
-    vertical-align: middle;
-    
-}
- li {
-   
-    padding-right: 20rem;
-    width: 20px;
-    list-style: none;
-    display: inline;
-
-    
-    
 }
 
 img { 
-    
     width : 120px;
+    padding: 10px;
+}
+
+ul {
+    margin-top: 1.6rem;
+    border-color: brown;
+    margin-left: 20px;
+    height: 10vh;
+    list-style: none;
+    
+}
+ li {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    width: 20px;
+    list-style: none;
+    display:inline-table;
+    
 }
